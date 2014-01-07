@@ -24,6 +24,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.synod.findme.Spash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_spash"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.synod.findme.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.synod.findme.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
     </application>
 
 </manifest>
